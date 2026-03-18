@@ -112,7 +112,7 @@
       width: 24px;
       height: 24px;
       cursor: pointer;
-      accent-color: #ff8601;
+      accent-color: #ff0000;
     }
     .section-divider {
       border: none;
@@ -120,7 +120,7 @@
       margin: 6px 0;
     }
     .section-header {
-      color: #ff0000;
+      color: #ff8601;
       font-size: 18px;
       font-weight: bold;
       text-align: left;
@@ -132,7 +132,7 @@
       bottom: 30px;
       left: 50%;
       transform: translateX(-50%);
-      background: #ff8601;
+      background: #ff0000;
       color: black;
       font-weight: bold;
       font-size: 16px;
@@ -150,7 +150,7 @@
 </head>
 <body class="dark-body">
 
-  <div class="site-header">CyberCatsScout</div>
+  <div class="site-header">DRAGONSCOPE</div>
 
   <div class="nav-buttons">
     <a class="button" href="index.html">Home</a>
@@ -158,19 +158,18 @@
   </div>
 
   <div class="dark-card">
-    <h1 class="form-title">2026 Pit Scouting</h1>
+    <h1 class="form-title">Pit Scouting</h1>
     <form id="pitForm">
 
-       <label class="form-label">Event</label>
+      <hr class="section-divider">
+
+      <label class="form-label">Event</label>
       <select class="form-input" id="event">
         <option value="">Select an event...</option>
-        <option value="2026mabil">2026 Minuteman</option>
-        <option value="2026mawne">2026 Western NE</option>
-        <option value="2026ctwat">2026 Waterbury</option>
-        <option value="2026rikin">2026 URI</option>
-        <option value="2026cthar">2026 Hartford</option>
+        <option value="2026mabil">2026 LIr</option>
+        <option value="2026mawne">2026 NYCr</option>
       </select>
-      
+
       <label class="form-label">Team</label>
       <select class="form-input" id="team" disabled>
         <option value="">Select an event first...</option>
@@ -180,6 +179,13 @@
 
       <label class="form-label">Scouter Name</label>
       <input class="form-input" type="text" id="scouter_name" placeholder="Enter your name...">
+
+      <label class="form-label">Scouter Team</label>
+      <select class="form-input" id="scouter_team">
+        <option value="">Select your team</option>
+        <option value="1991">1991</option>
+        <option value="3461">3461</option>
+      </select>
 
       <hr class="section-divider">
 
@@ -432,3 +438,4 @@
 
 </body>
 </html>
+
